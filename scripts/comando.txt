@@ -1,4 +1,4 @@
-gcloud dataflow jobs run audit-log-sap-dev \
+gcloud dataflow jobs run jobname \
     --gcs-location gs://dataflow-templates-us-central1/latest/GCS_Text_to_Cloud_PubSub \
     --region us-central1 \
     --parameters \
